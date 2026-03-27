@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="nav">
+    <h2>🏥 Patient Dashboard</h2>
+</div>
+
+<div class="container">
+
+    <div class="card">
+        <h3>Book Appointment</h3>
+        <input id="did" placeholder="Doctor ID">
+        <input id="date" type="date">
+        <button onclick="book()">Book Appointment</button>
+    </div>
+
+    <div class="card">
+        <h3>Available Doctors</h3>
+        <ul id="doctorList"></ul>
+    </div>
+
+</div>
+
+<p class="footer">© 2026 MedCare Hospital | Patient Portal</p>
+
+<script src="script.js"></script>
+</body>
+</html>

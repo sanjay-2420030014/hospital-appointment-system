@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="nav">
+    <h2>🏥 Admin Dashboard</h2>
+</div>
+
+<div class="container">
+
+    <div class="card">
+        <h3>Add Doctor</h3>
+        <input id="dname" placeholder="Doctor Name">
+        <input id="dspec" placeholder="Specialization">
+        <button onclick="addDoctor()">Add Doctor</button>
+    </div>
+
+    <div class="card">
+        <h3>Doctors List</h3>
+        <ul id="doctorList"></ul>
+    </div>
+
+    <div class="card">
+        <h3>Appointments</h3>
+        <ul id="appointments"></ul>
+    </div>
+
+</div>
+
+<p class="footer">© 2026 MedCare Hospital | Admin Panel</p>
+
+<script src="script.js"></script>
+</body>
+</html>
